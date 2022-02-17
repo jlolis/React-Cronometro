@@ -1,0 +1,45 @@
+body{
+    background-color: rgb(0, 192, 192);
+    color: rgb(253, 241, 224);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.img{
+    width: 150px;
+}
+
+.timer{
+    font-size: 50px;
+    margin-top: -110px;
+}
+
+.areaBtn{
+    margin-top: 80px;
+    display: flex;
+}
+
+.botao{
+    width: 100px;
+    background-color: whitesmoke;
+    font-size: 20px;
+    color: #000;
+    text-align: center;
+    border-radius: 5px;
+    margin: 0 15px;
+    padding: 5px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    opacity: 0.8;
+    color: rgb(110, 110, 110);
+    transition: all 0.5s;
+}
